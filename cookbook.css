@@ -1,0 +1,52 @@
+body {
+	/*background-image: url(images/italianCookbook.jpg);*/
+	height: 100vh;
+    background-color: #cccccc;
+    background-image: linear-gradient(red, white, green);
+}
+
+
+.ckbkHead {
+	font-family: 'Poiret One', cursive;
+	margin-top: .5em;
+	line-height: 5px;
+	text-align: center;
+}
+
+.ckbkMain {
+	font-size: 8em;
+}
+
+.ckbkSecondary {
+	font-size: 3em;
+}
+
+#footer
+{
+    position:fixed;
+    bottom:0;
+}
+
+.tableOfContents {
+    width: 200px; /* Set a width if you like */
+}
+
+.tableOfContents a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.tableOfContents a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.tableOfContents a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+/*font-family: 'Poiret One', cursive;
+font-family: 'Open Sans', sans-serif;*/

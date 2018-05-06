@@ -1,0 +1,46 @@
+/** {
+	border: 1px solid black;
+}*/
+
+body {
+
+}
+
+#headImg {
+	opacity: 0.9;
+	height: 60vh;
+	width: 100%;
+}
+
+.column {
+	float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.linkList {
+
+}
+
+.ckbkHead {
+	font-family: 'Poiret One', cursive;
+	margin-top: .5em;
+	line-height: 5px;
+	text-align: center;
+}
+
+.ckbkMain {
+	font-size: 8em;
+}
+
+.ckbkSecondary {
+	font-size: 3em;
+}
+
+/*font-family: 'Poiret One', cursive;
+font-family: 'Open Sans', sans-serif;*/
